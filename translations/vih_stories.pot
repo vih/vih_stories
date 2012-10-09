@@ -1,0 +1,207 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  vih_stories.features.field.inc: n/a
+#  vih_stories.views_default.inc: n/a
+#  vih_stories.features.inc: n/a
+#  vih_stories.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-10-09 13:42+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: vih_stories.features.field.inc:308
+msgid "Body"
+msgstr ""
+
+#: vih_stories.features.field.inc:309
+msgid "Enter a comma-separated list of words to describe your content."
+msgstr ""
+
+#: vih_stories.features.field.inc:310 vih_stories.views_default.inc:889
+msgid "Pictures"
+msgstr ""
+
+#: vih_stories.features.field.inc:311
+msgid "Tags"
+msgstr ""
+
+#: vih_stories.features.inc:30
+msgid "Story"
+msgstr ""
+
+#: vih_stories.features.inc:32
+msgid "Use <em>stories</em> for time-sensitive content like news, press releases or blog posts."
+msgstr ""
+
+#: vih_stories.features.inc:34 vih_stories.views_default.inc:877
+msgid "Titel"
+msgstr ""
+
+#: vih_stories.views_default.inc:860
+msgid "Defaults"
+msgstr ""
+
+#: vih_stories.views_default.inc:861
+msgid "mere"
+msgstr ""
+
+#: vih_stories.views_default.inc:862
+msgid "Udfør"
+msgstr ""
+
+#: vih_stories.views_default.inc:863
+msgid "Gendan"
+msgstr ""
+
+#: vih_stories.views_default.inc:864
+msgid "Sortér efter"
+msgstr ""
+
+#: vih_stories.views_default.inc:865
+msgid "Stigende"
+msgstr ""
+
+#: vih_stories.views_default.inc:866
+msgid "Faldende"
+msgstr ""
+
+#: vih_stories.views_default.inc:867
+msgid "Antal elementer"
+msgstr ""
+
+#: vih_stories.views_default.inc:868
+msgid "- Alle -"
+msgstr ""
+
+#: vih_stories.views_default.inc:869
+msgid "Forskydning"
+msgstr ""
+
+#: vih_stories.views_default.inc:870
+msgid "« første"
+msgstr ""
+
+#: vih_stories.views_default.inc:871
+msgid "‹ forrige"
+msgstr ""
+
+#: vih_stories.views_default.inc:872
+msgid "næste ›"
+msgstr ""
+
+#: vih_stories.views_default.inc:873
+msgid "sidste »"
+msgstr ""
+
+#: vih_stories.views_default.inc:874
+msgid "Alle"
+msgstr ""
+
+#: vih_stories.views_default.inc:875
+msgid "Side"
+msgstr ""
+
+#: vih_stories.views_default.inc:876
+msgid "Antal pr. side"
+msgstr ""
+
+#: vih_stories.views_default.inc:878
+msgid "Oprettelsesdato"
+msgstr ""
+
+#: vih_stories.views_default.inc:879
+msgid "Udgivet"
+msgstr ""
+
+#: vih_stories.views_default.inc:880
+msgid "Block"
+msgstr ""
+
+#: vih_stories.views_default.inc:881
+msgid "<h2>[title]</h2>"
+msgstr ""
+
+#: vih_stories.views_default.inc:882
+msgid "Slideshow"
+msgstr ""
+
+#: vih_stories.views_default.inc:883
+msgid "<div class=\"transparent\">\n<h2>[title]</h2>\n<p>[entity_id]</p>\n</div>"
+msgstr ""
+
+#: vih_stories.views_default.inc:887
+msgid "Taxonomy block"
+msgstr ""
+
+#: vih_stories.views_default.inc:888
+msgid "Used to display the stories on taxonomies"
+msgstr ""
+
+#: vih_stories.views_default.inc:890
+msgid "<h3>[title]</h3>"
+msgstr ""
+
+#: vih_stories.views_default.inc:891
+msgid "<p>[created]</p>"
+msgstr ""
+
+#: vih_stories.views_default.inc:892
+msgid "Blok - main"
+msgstr ""
+
+#: vih_stories.views_default.inc:893
+msgid "Used for the main news page"
+msgstr ""
+
+#: vih_stories.views_default.inc:894
+msgid "<h3>[title]</h3>\n[entity_id]"
+msgstr ""
+
+#: vih_stories.views_default.inc:896
+msgid "Views: Stories: Archive page"
+msgstr ""
+
+#: vih_stories.views_default.inc:897
+msgid "Content pane"
+msgstr ""
+
+#: vih_stories.views_default.inc:898
+msgid "Aktuelle historier"
+msgstr ""
+
+#: vih_stories.views_default.inc:899
+msgid "Opdateringsdato"
+msgstr ""
+
+#: vih_stories.views_default.inc:900
+msgid "View panes"
+msgstr ""
+
+#: vih_stories.views_default.inc:901
+msgid "Feed"
+msgstr ""
+
+#: vih_stories.info:0
+msgid "VIH Stories"
+msgstr ""
+
+#: vih_stories.info:0
+msgid "Handles stories"
+msgstr ""
+
+#: vih_stories.info:0
+msgid "VIH"
+msgstr ""
+
