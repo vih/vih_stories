@@ -3,7 +3,7 @@ description = Handles stories
 core = 7.x
 package = VIH
 php = 5.2.4
-version = 7.x-0.15
+version = 7.x-0.16
 project = vih_stories
 dependencies[] = colorbox
 dependencies[] = features
@@ -15,7 +15,7 @@ dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = views
 dependencies[] = views_slideshow
-datestamp = 1331278554
+datestamp = 1346221374
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
@@ -44,10 +44,3 @@ features[variable][] = node_options_story
 features[variable][] = node_preview_story
 features[variable][] = node_submitted_story
 features[views_view][] = article_teasers
-
-
-; Information added by drush on 2012-08-29
-version = "unknown"
-project = "vih"
-datestamp = "1346221374"
-
