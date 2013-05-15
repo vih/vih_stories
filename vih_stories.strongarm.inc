@@ -99,13 +99,13 @@ function vih_stories_strongarm() {
           'weight' => '6',
         ),
         'path' => array(
-          'weight' => '6',
+          'weight' => '5',
         ),
         'metatags' => array(
-          'weight' => '7',
+          'weight' => '4',
         ),
         'redirect' => array(
-          'weight' => '8',
+          'weight' => '6',
         ),
       ),
       'display' => array(),

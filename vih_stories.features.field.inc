@@ -152,6 +152,7 @@ function vih_stories_field_default_fields() {
             'colorbox_gallery' => 'post',
             'colorbox_gallery_custom' => '',
             'colorbox_image_style' => 'media_gallery_large',
+            'colorbox_multivalue_index' => NULL,
             'colorbox_node_style' => 'large',
           ),
           'type' => 'colorbox',
@@ -173,6 +174,9 @@ function vih_stories_field_default_fields() {
         'default_image' => 0,
         'file_directory' => '',
         'file_extensions' => 'png jpg jpeg',
+        'focus' => 0,
+        'focus_lock_ratio' => 0,
+        'focus_min_size' => '',
         'imagecrop' => array(
           'content_width' => 0,
         ),
