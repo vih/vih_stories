@@ -856,7 +856,7 @@ function vih_stories_views_default_views() {
   $handler = $view->new_display('feed', 'Feed', 'feed_1');
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['style_plugin'] = 'rss';
-  $handler->display->display_options['row_plugin'] = 'date_ical';
+  $handler->display->display_options['row_plugin'] = 'rss_fields';
   $handler->display->display_options['path'] = 'nyheder.xml';
   $handler->display->display_options['displays'] = array(
     'block_2' => 'block_2',
