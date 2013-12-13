@@ -744,11 +744,7 @@ function vih_stories_views_default_views() {
   $handler->display->display_options['defaults']['use_more_text'] = FALSE;
   $handler->display->display_options['use_more_text'] = 'mere';
   $handler->display->display_options['defaults']['cache'] = FALSE;
-  $handler->display->display_options['cache']['type'] = 'time';
-  $handler->display->display_options['cache']['results_lifespan'] = '3600';
-  $handler->display->display_options['cache']['results_lifespan_custom'] = '0';
-  $handler->display->display_options['cache']['output_lifespan'] = '3600';
-  $handler->display->display_options['cache']['output_lifespan_custom'] = '0';
+  $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
@@ -851,20 +847,6 @@ function vih_stories_views_default_views() {
     'story' => 'story',
   );
   $handler->display->display_options['filters']['type']['group'] = 1;
-
-  /* Display: Feed */
-  $handler = $view->new_display('feed', 'Feed', 'feed_1');
-  $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['style_plugin'] = 'rss';
-  $handler->display->display_options['row_plugin'] = 'rss_fields';
-  $handler->display->display_options['path'] = 'nyheder.xml';
-  $handler->display->display_options['displays'] = array(
-    'block_2' => 'block_2',
-    'block_3' => 'block_3',
-    'default' => 0,
-    'block_news_teaser' => 0,
-    'block_1' => 0,
-  );
   $translatables['article_teasers'] = array(
     t('Defaults'),
     t('mere'),
@@ -883,6 +865,7 @@ function vih_stories_views_default_views() {
     t('Alle'),
     t('Side'),
     t('Antal pr. side'),
+    t('- Vælg en handling -'),
     t('Titel'),
     t('Oprettelsesdato'),
     t('Udgivet'),
@@ -907,7 +890,6 @@ function vih_stories_views_default_views() {
     t('Aktuelle historier'),
     t('Opdateringsdato'),
     t('View panes'),
-    t('Feed'),
   );
   $export['article_teasers'] = $view;
 

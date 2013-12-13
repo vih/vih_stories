@@ -24,6 +24,12 @@ function vih_stories_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 0,
       ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'full' => array(
         'label' => 'above',
         'settings' => array(),
@@ -100,6 +106,12 @@ function vih_stories_field_default_field_instances() {
         'type' => 'colorbox',
         'weight' => 2,
       ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -170,6 +182,12 @@ function vih_stories_field_default_field_instances() {
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 1,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'full' => array(
         'label' => 'above',
