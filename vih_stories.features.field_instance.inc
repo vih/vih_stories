@@ -102,6 +102,7 @@ function vih_stories_field_default_field_instances() {
           'colorbox_image_style' => 'media_gallery_large',
           'colorbox_multivalue_index' => NULL,
           'colorbox_node_style' => 'large',
+          'colorbox_node_style_first' => '',
         ),
         'type' => 'colorbox',
         'weight' => 2,
@@ -131,6 +132,7 @@ function vih_stories_field_default_field_instances() {
       'focus' => 0,
       'focus_lock_ratio' => 0,
       'focus_min_size' => '',
+      'focus_required' => 0,
       'imagecrop' => array(
         'content_width' => 0,
       ),
