@@ -3,5 +3,19 @@
  * @file
  * Code for the VIH Stories feature.
  */
- 
+
 include_once('vih_stories.features.inc');
+
+/**
+ * Implements hook_migrate_api().
+ */
+function vih_stories_migrate_api() {
+  $api = array(
+    'api' => 2,
+    'migrations' => array(
+      'VIHStoriesNode' => array('class_name' => 'VIHStoriesNode'),
+    ),
+  );
+
+  return $api;
+}
