@@ -42,4 +42,3 @@ features[variable][] = node_preview_story
 features[variable][] = node_submitted_story
 features[views_view][] = article_teasers
 files[] = vih_stories.migrate.inc
-mtime = 1423777367
