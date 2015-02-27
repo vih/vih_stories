@@ -115,12 +115,14 @@ function vih_stories_field_default_field_instances() {
       ),
       'teaser' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'image_delta_formatter',
         'settings' => array(
+          'deltas' => 0,
+          'deltas_reversed' => 0,
           'image_link' => 'content',
           'image_style' => 'panopoly_image_thumbnail',
         ),
-        'type' => 'image',
+        'type' => 'image_delta',
         'weight' => 0,
       ),
     ),
