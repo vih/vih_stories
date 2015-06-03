@@ -120,7 +120,7 @@ function vih_stories_field_default_field_instances() {
           'deltas' => 0,
           'deltas_reversed' => 0,
           'image_link' => 'content',
-          'image_style' => 'panopoly_image_thumbnail',
+          'image_style' => 'panopoly_image_square',
         ),
         'type' => 'image_delta',
         'weight' => 0,
