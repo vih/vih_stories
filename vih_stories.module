@@ -19,3 +19,19 @@ function vih_stories_migrate_api() {
 
   return $api;
 }
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function vih_stories_form_node_form_alter(&$form, &$form_state, $form_id) {
+  // If a user has access to create or edit a node, let them change author date.
+  if (!user_access('administer nodes')) {
+    $form['author']['#access'] = TRUE;
+    $form['author']['name']['#access'] = FALSE;
+    $form['author']['date']['#access'] = TRUE;
+
+    // Re-run date_popup_authored, no matter the struggle to alter implements
+    // can't get this to run before it.
+    date_popup_authored_form_node_form_alter($form, $form_state, $form_id);
+  }
+}
