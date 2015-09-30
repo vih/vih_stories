@@ -19,6 +19,7 @@ dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = views
+dependencies[] = views_bulk_operations
 dependencies[] = views_content
 dependencies[] = views_slideshow
 dependencies[] = vih_fields
