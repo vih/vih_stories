@@ -14,6 +14,7 @@ dependencies[] = menu
 dependencies[] = migrate
 dependencies[] = node
 dependencies[] = panopoly_pages
+dependencies[] = scheduler
 dependencies[] = search
 dependencies[] = strongarm
 dependencies[] = taxonomy
