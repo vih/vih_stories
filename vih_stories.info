@@ -1,5 +1,5 @@
 name = VIH Stories
-description = Handles stories
+description = Handles time sensitive nodes, like news, stories, press releases and so on.
 core = 7.x
 package = VIH
 version = 7.x-0.16
