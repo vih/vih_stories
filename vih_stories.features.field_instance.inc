@@ -10,7 +10,7 @@
 function vih_stories_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-story-body'
+  // Exported field_instance: 'node-story-body'.
   $field_instances['node-story-body'] = array(
     'bundle' => 'story',
     'default_value' => NULL,
@@ -85,7 +85,7 @@ function vih_stories_field_default_field_instances() {
     'widget_type' => 'text_textarea_with_summary',
   );
 
-  // Exported field_instance: 'node-story-field_pictures'
+  // Exported field_instance: 'node-story-field_pictures'.
   $field_instances['node-story-field_pictures'] = array(
     'bundle' => 'story',
     'deleted' => 0,
@@ -185,7 +185,7 @@ function vih_stories_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-story-field_tags'
+  // Exported field_instance: 'node-story-field_tags'.
   $field_instances['node-story-field_tags'] = array(
     'bundle' => 'story',
     'default_value' => NULL,
